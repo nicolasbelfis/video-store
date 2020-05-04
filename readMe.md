@@ -31,7 +31,7 @@ you can then create and return rentals using data gathered from the view api
 - unit test are missing in infrastructue and application modules
 - some edge cases are not covered by the functional tests
 - renting and returning same film with same customer is bugged
-- compensates actions should be created in order to do a saga that makes the 2 main operation atomic for 
+- compensates actions should be created in order to do a saga that makes the 2 main operations atomic
 
 # Choices
 - main motivation is to follow DDD approach by separating the problem in 3 independent aggregates 
